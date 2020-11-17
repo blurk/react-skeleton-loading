@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antiliased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  background-color: #1e65ff;
+  padding: 10px;
+}
+
+header h1 {
+  color: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  color: #1d1d1d;
+}
+
+.content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  /*Display*/
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 100px;
+}
